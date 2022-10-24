@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Modal Windows</title>
+  </head>
+  <body>
+    <header class="header">
+      <button class="display-modal">Button 1</button>
+      <button class="display-modal">Button 2</button>
+      <button class="display-modal">Button 3</button>
+    </header>
+    <main>
+      <section class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1 class="title">Lorem ipsum dolor sit amet.</h1>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
+          iusto ipsam facere. Earum cumque eaque eligendi maiores temporibus
+          commodi fuga modi non sunt error animi molestias fugit, consequatur
+          repudiandae incidunt.
+        </p>
+        <p class="text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+          exercitationem doloribus blanditiis voluptatibus, necessitatibus unde
+          ex! Quo consequatur praesentium vitae perferendis, debitis dolore,
+          libero illum ut, veniam voluptatem dolor in?
+        </p>
+      </section>
+      <div class="overlay hidden"></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
